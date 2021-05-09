@@ -1,21 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
 :root {
     --primary-color: #FEE042;
 }
 
 body {
     margin: 0;
+    font-family: 'Itim', cursive;
 }
 
 .container {
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 .title {
     text-align: center;
     background-color: var(--primary-color);
     padding: 1rem;
-    font-size: 2rem
+    font-size: 2.5rem
 }
 
 .translate-container {
@@ -26,10 +30,14 @@ body {
     display: block;
     padding: 1rem;
     font-size: 1.2rem;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 #translate-input {
     margin-top: 2rem;
+    margin-right: 0;
+    font-family: inherit;
 }
 
 #btn-translate {
@@ -41,6 +49,7 @@ body {
     height: 50px;
     width: 150px;
     font-size: 2rem;
+    font-family: inherit;
     background-color: var(--primary-color);
 }
 
