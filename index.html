@@ -6,10 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banana talk</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>banana talk</h1>
+    <div class="title">minion talk</div>
+    <main class="container">
+        <textarea id="translate-input" class="translate-container"
+            placeholder="enter your text here to translate"></textarea>
+        <button id="btn-translate">translate</button>
+
+        <div>Translation will appear below 👇</div>
+        <div class="translate-output translate-container"></div>
+    </main>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
