@@ -56,3 +56,29 @@ body {
 .translate-output {
     margin-top: 0.5rem;
 }
+
+footer {
+    background-color: var(--primary-color);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer img {
+    height: 75px;
+    display: block;
+}
+
+footer p {
+    margin: 0.25rem;
+}
+
+.scroll-fix {
+    height: 100px;
+}
